@@ -1,0 +1,95 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body {
+  background: linear-gradient(135deg, #f0f4f8 0%, #dce3eb 100%);
+  color: #1b1f3b;
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Container */
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+/* Headings */
+h1, h2 {
+  color: #0b3d91; /* deep dark blue accent */
+  margin-bottom: 10px;
+}
+
+h1 {
+  border-bottom: 3px solid #0b3d91;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+  border-left: 4px solid #0b3d91;
+  padding-left: 8px;
+}
+
+/* Links */
+a {
+  color: #0b3d91;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #092c6b;
+}
+
+/* Lists */
+ul, ol {
+  margin: 10px 0 20px 30px;
+}
+
+/* Images */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
+
+/* Buttons or links styled like buttons (optional) */
+.button {
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: #0b3d91;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: #092c6b;
+}
+
+/* Paragraphs */
+p {
+  margin: 15px 0;
+  color: #2f3a56;
+}
